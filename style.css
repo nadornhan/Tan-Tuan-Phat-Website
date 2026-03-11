@@ -77,6 +77,17 @@ body {
   gap: 10px;
 }
 
+@media (max-width: 600px) {
+
+  .logo-hinh {
+    height: 50px;
+  }
+
+  .logo-chu {
+    height: 70px;
+  }
+}
+
 .logo-hinh {
   height: 80px;
   width: auto;
@@ -332,6 +343,11 @@ body {
 }
 
 /* Đoạn giới thiệu, liên hệ */
+@media (max-width: 600px) {
+  #contact p {
+    font-size: 0.95rem;
+  }
+}
 #contact p {
   margin-bottom: 8px;
 }
@@ -367,6 +383,19 @@ body {
   pointer-events: none;
 }
 
+@media (max-width: 600px) {
+
+.category-btn {
+  font-size: 0.9rem;
+  color: #333;
+  
+}
+
+.categories {
+  gap: 10px;
+}
+}
+
 .category-btn {
   font-family: "Ganh-thin", sans-serif;
   font-weight: 700;
@@ -385,6 +414,17 @@ body {
   text-decoration: underline;
   background-color: transparent;
   color: inherit
+}
+
+@media (max-width: 700px) {
+
+.modal {
+  width: 95%;
+}
+
+.modal-content {
+  flex-direction: column;
+}
 }
 
 /* Overlay */
@@ -464,4 +504,5 @@ body {
   .modal-content {
     flex-direction: column;
   }
+
 }
