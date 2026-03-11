@@ -79,14 +79,13 @@ body {
 
 @media (max-width: 600px) {
 
-  .logo-hinh {
-    height: 20px;
-  }
+.logo-hinh {
+  height: 45px;
+}
 
-  .logo-chu {
-    height: 40px;
-    margin-top: 5px
-  }
+.logo-chu {
+  height: 60px;
+}
 }
 
 .logo-hinh {
@@ -507,3 +506,4 @@ body {
   }
 
 }
+
