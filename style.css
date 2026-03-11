@@ -198,16 +198,17 @@ body {
   color: #555;
 }
 
-@media (max-width: 600px) {
-  .hero h1 {
-    font-size: 1.6rem;
-  }
-}
 /* Container dùng chung cho các section */
 .container {
   max-width: 960px;
   margin: 24px auto;
   padding: 0 16px;
+}
+
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 1.6rem;
+  }
 }
 
 /* Tiêu đề section */
@@ -260,15 +261,15 @@ body {
   font-size: 3rem;
 }
   .line-san {
-  padding-left: 90px;
+  padding-left: 80px;
 }
 
 .line-pham {
-  padding-left: 10px;
+  padding-left: 1px;
 }
 
 .line-noibat {
-  padding-left: 120px;
+  padding-left: 110px;
 }
 }
 /* Grid sản phẩm: responsive dùng CSS Grid */
@@ -519,5 +520,6 @@ body {
     height: auto;
   }
 }
+
 
 
