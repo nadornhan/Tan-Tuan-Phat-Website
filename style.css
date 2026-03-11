@@ -438,7 +438,7 @@ body {
 }
 
 .categories {
-  gap: 10px;
+  gap: 15px;
 }
 }
 
@@ -524,6 +524,7 @@ body {
     height: auto;
   }
 }
+
 
 
 
