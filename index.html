@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Nội thất Tân Tuấn Phát</title>
+    <!-- Thẻ meta giúp web hiển thị tốt trên điện thoại -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Nối file CSS để áp dụng style -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Phần đầu trang: logo + tên shop + menu đơn giản -->
+    <header class="header">
+      <div class="logo">
+        <img src="logo_đen.png"
+        alt="my_logo"
+        class="logo-hinh">
+        <img src="ttp_đen.png"
+        alt="ttp"
+        class="logo-chu">
+      </div>
+      <nav class="nav">
+        <a href="#contact">Liên hệ</a>
+      </nav>
+    </header>
+
+    <section class="categories">
+        <button class="category-btn active" data-category="home">Trang chủ</button>
+        <button class="category-btn" data-category="all">Tất cả</button>
+        <button class="category-btn" data-category="hot">Bán chạy nhất</button>
+        <button class="category-btn" data-category="ban">Bàn</button>
+        <button class="category-btn" data-category="ketu">Kệ Tủ</button>
+        <button class="category-btn" data-category="ghe">Ghế</button>
+        <button class="category-btn" data-category="xichdu">Xích đu</button>
+    </section>
+
+    <section class="bia-trang-dau">
+        <img src="bìa-xám.png"
+        alt="bia"
+        class="anh-bia">
+    </section>
+
+    <!-- Phần banner giới thiệu -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Cửa hàng Nội thất Tân Tuấn Phát xin chào!</h1>
+        <p>
+          Đây là trang web trưng bày các mặt hàng mẫu. Không có chức năng mua
+          bán, chỉ dùng để giới thiệu sản phẩm.
+
+        </p>
+      </div>
+    </section>
+
+    <!-- Phần liên hệ -->
+    <section class="container" id="contact">
+      <div class="hero-content">
+        <h1>Liên hệ mua hàng</h1>
+      </div>
+      <p><b>Email:</b> nhan682005@gmail.com</p>
+      <p><b>Điện thoại/Zalo:</b> 0914 072 797 (Thuy Ngo)</p>
+      <p>
+        <strong>Địa chỉ:</strong>
+        <a class="map-link" href="https://maps.app.goo.gl/4VGBee8u1BjUqpoK7" target="_blank">
+            121 Hai Bà Trưng, phường Buôn Ma Thuột, tỉnh Đắk Lắk
+        </a>
+      </p>
+
+    </section>
+
+    <section id="featured-section" class="container">
+        <h2 class="section-title">
+            <span class="line-san">Sản</span>
+            <span class="line-pham">Phẩm</span>
+            <span class="line-noibat">Nổi Bật</span>
+        </h2>
+
+        <div class="featured-grid">
+            <article class="featured-product product-card">
+            <img
+                src="sp/spnb/spnb1-ketu.png"
+                alt="Sản phẩm nổi bật 1"
+                class="product-image-feature"
+            />
+            <div class="product-info">
+                <h3 class="product-name">Kệ tủ sọc 3 cánh</h3>
+                <p class="product-price"></p>
+                <p class="product-description">
+                Kệ tủ đừng giày dép hoặc đồ gia dụng với thiết kế hiện đại kết hợp tone màu gỗ trầm.
+                </p>
+            </div>
+            </article>
+            <article class="featured-product product-card">
+            <img
+                src="sp/spnb/spnb2-ketu.png"
+                alt="Sản phẩm nổi bật 2"
+                class="product-image-feature"
+            />
+            <div class="product-info">
+                <h3 class="product-name">Tủ Hoàng Gia</h3>
+                <p class="product-price"></p>
+                <p class="product-description">
+                Tủ đựng đồ 3 hộc chắc chắn với chất liệu gỗ dày và màu gỗ thiên hướng Hoàng Gia đặc trưng.
+                </p>
+            </div>
+            </article>
+            <article class="featured-product product-card">
+            <img
+                src="sp/spnb/spnb3-ghe.png"
+                alt="Sản phẩm nổi bật 3"
+                class="product-image-feature"
+            />
+            <div class="product-info">
+                <h3 class="product-name">Ghế bập bênh Puff</h3>
+                <p class="product-price"></p>
+                <p class="product-description">
+                Ghế lười bập bênh ngồi thư giãn nghỉ ngơi với thiết kế đệm êm và độ dài ghế có thể điều chỉnh giúp linh hoạt cho không gian ngôi nhà của bạn.
+                </p>
+            </div>
+            </article>
+            <article class="featured-product product-card">
+            <img
+                src="sp/spnb/spnb4-ghe.png"
+                alt="Sản phẩm nổi bật 4"
+                class="product-image-feature"
+            />
+            <div class="product-info">
+                <h3 class="product-name">Ghế bập bênh Baegel</h3>
+                <p class="product-price"></p>
+                <p class="product-description">
+                Ghế lười bập bênh với thiết hình chữ nhật đứng rộng rãi và dễ chịu.
+                </p>
+            </div>
+            </article>
+            <article class="featured-product product-card">
+            <img
+                src="sp/spnb/spnb5-ghe.png"
+                alt="Sản phẩm nổi bật 5"
+                class="product-image-feature"
+            />
+            <div class="product-info">
+                <h3 class="product-name">Ghế lưới lưng đứng</h3>
+                <p class="product-price"></p>
+                <p class="product-description">
+                Ghế lưới chắc chắn với thiết kế hiện đại, có thể dùng trong nhà và ngoài trời đều được.
+                </p>
+            </div>
+            </article>
+        </div>
+    </section>
+
+
+    <!-- Khu vực sản phẩm -->
+    <main class="container" id="productsposter">
+      <h2 class="section-title" id="SP">
+        <span class="line-sp">SẢN PHẨM</span>
+      </h2>
+
+      <!-- Lưới sản phẩm -->
+      <div class="product-grid">
+        <!-- 1 thẻ sản phẩm -->
+        <article class="product-card" data-category="ketu,hot">
+          <img
+            src="sp/ketu/sp1-ketu.png"
+            alt="Sản phẩm 1"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Kệ Tivi Roco</h3>
+            <p class="product-price"></p>
+            <p class="product-description">
+              Kệ TV dài với thiết kế gỗ hiện đại, hộc tủ cửa hai cánh và hai hộc đựng được rất nhiều đồ.
+            </p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="ghe">
+          <img
+            src="sp/ghe/sp1-ghe.png"
+            alt="Sản phẩm 2"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Ghế bập bênh Vành</h3>
+            <p class="product-price"></p>
+            <p class="product-description">
+              Ghế bập bênh với nệm dày rất êm và kèm theo đôn gác chân tạo cảm giác thoải mái và thư giản khi ngồi.
+            </p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="ghe">
+          <img
+            src="sp/ghe/sp2-ghe.png"
+            alt=""
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Ghế bập bênh Baegel</h3>
+            <p class="product-price"></p>
+            <p class="product-description">
+              Ghế lười bập bênh với thiết hình chữ nhật đứng rộng rãi và dễ chịu.
+            </p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="ban,hot">
+          <img
+            src="sp/ban/sp1-ban.png"
+            alt="Sản phẩm 4"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Bàn tròn lưới</h3>
+            <p class="product-price"></p>
+            <p class="product-description">
+              Bàn tròn lưới thường kết hợp với ghế lưới thành một bộ, mặt kính sang trọng, có thể để ngoài trời lẫn trong nhà.
+            </p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="ketu">
+          <img
+            src="sp/ketu/sp2-ketu.png"
+            alt="Sản phẩm 5"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Tủ đầu giường Squar</h3>
+            <p class="product-price"></p>
+            <p class="product-description">
+              Tủ để đầu giường đơn giản nhưng sang trọng với màu gỗ độc lạ.
+            </p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="ketu">
+          <img
+            src="sp/ketu/sp3-ketu.png"
+            alt="Sản phẩm 6"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Kệ tủ Lux</h3>
+            <p class="product-price"></p>
+            <p class="product-description">
+              Kệ tủ với kích thước vừa đủ, cửa mặt kính có thể thấy bên trong rất phù hợp để trang trí.
+            </p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="ghe">
+          <img
+            src="sp/ghe/sp3-ghe.png"
+            alt="Sản phẩm 7"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Bộ ghế vải cafe Mono</h3>
+            <p class="product-price"></p>
+            <p class="product-description">
+              Ghế cafe thịnh hành với thiết kế và màu sắc không bao giờ lỗi thời.
+            </p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="ketu,hot">
+          <img
+            src="sp/ketu/sp4-ketu.png"
+            alt="Sản phẩm 8"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Kệ góc Rose</h3>
+            <p class="product-price"></p>
+            <p class="product-description">
+              Kệ góc cao tầng với thiết kế vintage phù hợp để trang trí.
+            </p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="ghe">
+          <img
+            src="sp/ghe/sp4-ghe.png"
+            alt="Sản phẩm 9"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Sofa đơn 4X</h3>
+            <p class="product-price"></p>
+            <p class="product-description">
+              Sofa đơn với chất liệu gỗ chắc chắn và nệm vải êm vô cùng.
+            </p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="ketu">
+          <img
+            src="sp/ketu/sp5-ketu.png"
+            alt="Sản phẩm 10"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Kệ góc Duki</h3>
+            <p class="product-price"></p>
+            <p class="product-description">
+              Kệ góc vô cùng chắc chắn, nhiều ngăn và tầng với màu gỗ tự nhiên sáng bừng.
+            </p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="ghe,hot">
+          <img
+            src="sp/ghe/sp5-ghe.png"
+            alt="Sản phẩm 10"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Ghế lưới lưng đứng</h3>
+            <p class="product-price"></p>
+            <p class="product-description">
+              Ghế lưới chắc chắn với thiết kế hiện đại, có thể dùng trong nhà và ngoài trời đều được.
+            </p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="ketu">
+          <img
+            src="sp/ketu/sp6-ketu.png"
+            alt="Sản phẩm 10"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Kệ Tivi Amaili</h3>
+            <p class="product-price"></p>
+            <p class="product-description">
+              Kệ TV gỗ chắc chắn, bền với tone màu gỗ kết hợp trắng vô cùng sang trọng.
+            </p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="ghe,hot">
+          <img
+            src="sp/ghe/sp6-ghe.png"
+            alt="Sản phẩm 10"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Ghế lưới bầu</h3>
+            <p class="product-price"></p>
+            <p class="product-description">
+              Kế lưới bầu ngồi rộng và thoải mái hơn, dùng trong nhà hay ngoài trời đều được.
+            </p>
+          </div>
+        </article>
+        
+        <article class="product-card" data-category="ghe">
+          <img
+            src="sp/ghe/sp7-ghe.png"
+            alt="Sản phẩm 10"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Ghế bành </h3>
+            <p class="product-price"></p>
+            <p class="product-description">
+              Ghế bành nệm bọc da vô cùng xịn sò và chắc chắn.
+            </p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="ghe">
+          <img
+            src="sp/ghe/sp8-ghe.png"
+            alt="Sản phẩm 10"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Ghế dài</h3>
+            <p class="product-price"></p>
+            <p class="product-description">
+              Ghế dài nệm bọc da hiện đại và tiện lợi.
+            </p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="ban">
+          <img
+            src="sp/ban/sp2-ban.png"
+            alt="Sản phẩm 10"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Bộ bàn ghế Nato</h3>
+            <p class="product-price"></p>
+            <p class="product-description">
+              Bộ bàn gỗ chắc chắn bọc nệm êm, bàn và ghế có bán lẻ.
+            </p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="ketu">
+          <img
+            src="sp/ketu/sp7-ketu.png"
+            alt="Sản phẩm 10"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Tủ quần áo sồi</h3>
+            <p class="product-price"></p>
+            <p class="product-description">
+              Tủ quần áo gỗ sồi đẳng cấp sử dụng không biết khi nào mới hư, tủ cửa hai cánh và ba cánh đều có.
+            </p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="ketu">
+          <img
+            src="sp/ketu/sp8-ketu.png"
+            alt="Sản phẩm 10"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Tủ quần áo đa ngăn</h3>
+            <p class="product-price"></p>
+            <p class="product-description">
+              Tủ quần áo đa ngăn đồ gì cũng bỏ được.
+            </p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="xichdu">
+          <img
+            src="sp/xichdu/sp1-xichdu.png"
+            alt="Sản phẩm 10"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Xích đu</h3>
+            <p class="product-price"></p>
+            <p class="product-description">
+              Xích đu to và chắc chắn, khung sắt để ngoài trời không sợ hư.
+            </p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="ghe">
+          <img
+            src="sp/ghe/sp9-ghe.png"
+            alt="Sản phẩm 10"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Ghế Voco</h3>
+            <p class="product-price"></p>
+            <p class="product-description">
+              Ghế ngồi bàn ăn rất thích hợp, với thiết kế ôm lưng và cột rất mát.
+            </p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="ghe">
+          <img
+            src="sp/ghe/sp10-ghe.png"
+            alt="Sản phẩm 10"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Ghế Nego</h3>
+            <p class="product-price"></p>
+            <p class="product-description">
+              Ghế ngồi chơi thư giãn với tấm nệm dày.
+            </p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="ketu">
+          <img
+            src="sp/ketu/sp9-ketu.png"
+            alt="Sản phẩm 10"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Kệ tủ Buqi</h3>
+            <p class="product-price"></p>
+            <p class="product-description">
+              Kệ tủ nhỏ gọn dùng để đựng đồ linh tinh.
+            </p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="ketu">
+          <img
+            src="sp/ketu/sp10-ketu.png"
+            alt="Sản phẩm 10"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Kệ tủ Yosu</h3>
+            <p class="product-price"></p>
+            <p class="product-description">
+              Kệ tủ gỗ chắc chắn và nhiều ngăn.
+            </p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="ghe">
+          <img
+            src="sp/ghe/sp11-ghe.png"
+            alt="Sản phẩm 10"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Ghế nhựa Dolo</h3>
+            <p class="product-price"></p>
+            <p class="product-description">
+              Ghế nhựa đầy đủ màu sắc.
+            </p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="ghe,hot">
+          <img
+            src="sp/ghe/sp12-ghe.png"
+            alt="Sản phẩm 10"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Ghế nệm văn phòng</h3>
+            <p class="product-price"></p>
+            <p class="product-description">
+              Ghế nệm văn phòng nhiều mẫu mã từ bình dân đến cao cấp.
+            </p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="ketu">
+          <img
+            src="sp/ketu/sp11-ketu.png"
+            alt="Sản phẩm 10"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Kệ tủ Pica</h3>
+            <p class="product-price"></p>
+            <p class="product-description">
+              Kệ tủ gỗ trắng vô cùng chắc chắn, dễ đựng đồ, quần áo, đồ gia dụng linh tinh.
+            </p>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="ketu">
+          <img
+            src="sp/ketu/sp12-ketu.png"
+            alt="Sản phẩm 10"
+            class="product-image"
+          />
+          <div class="product-info">
+            <h3 class="product-name">Kệ tủ Hanut</h3>
+            <p class="product-price"></p>
+            <p class="product-description">
+              Kệ tủ gỗ phong cách và chắc chắn.
+            </p>
+          </div>
+        </article>
+      </div>
+    </main>
+
+    <section class="poster">
+        <div class="poster1st">
+            <img src="poster/ghebanh.png"
+            alt="poster1"
+            class="ghebanh">
+            <img src="poster/ghenho.png"
+            alt="poster2"
+            class="ghenho">
+        </div>
+    </section>
+
+    <section class="poster2">
+      <div class="poster2nd">
+            <img src="poster/ghedai.png"
+            alt="poster3"
+            class="ghedai">
+      </div>
+    </section>
+
+    <section class="posterkinh">
+      <div class="posterk">
+            <img src="poster/posterkinh.png"
+            alt="poster4">
+      </div>
+    </section>
+
+    <!-- Chân trang -->
+    <footer class="footer">
+      <p>© since 2006 TanTuanPhat. Buon Ma Thuot.</p>
+    </footer>
+
+    <!-- Overlay làm tối nền -->
+    <div id="modal-overlay" class="modal-overlay"></div>
+
+    <!-- Hộp modal -->
+    <div id="product-modal" class="modal">
+    <div class="modal-content">
+        
+        <!-- TRÁI: Hình sản phẩm -->
+        <div class="modal-left">
+        <img id="modal-image" src="" alt="">
+        </div>
+
+        <!-- PHẢI: thông tin -->
+        <div class="modal-right">
+        <h2 id="modal-name"></h2>
+        <p id="modal-price"></p>
+        <p id="modal-description"></p>
+        </div>
+
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>

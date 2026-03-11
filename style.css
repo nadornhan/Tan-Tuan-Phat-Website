@@ -1,0 +1,467 @@
+/* Reset nhẹ cho toàn trang: bỏ margin/padding mặc định */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Ganh-thin";
+  src: url("Font/Ganh/Ganh\ Type\ -\ Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hanoixua";
+  src: url("Font/Hanoixua/Hanoixua.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Angi";
+  src: url("Font/Angi/DFVN-PaperKuto.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Tiemtaphoa";
+  src: url("Font/Tiemtaphoa/NVNJanuary-Regular-9zjomi.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Suava";
+  src: url("Font/Suava/BTSuave-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Freeman";
+  src: url("Font/Freeman/Freeman-Regular.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Font, màu nền chung */
+body {
+  padding-top: 250px;
+  font-family: "Ganh-thin", sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Header cố định trên cùng, nền trắng, đổ bóng nhẹ */
+.header {
+  position: fixed;       /* luôn cố định */
+  top: 10px;                /* dính sát mép trên */
+  left: 0;
+  width: 100%;           /* full chiều ngang */
+  background-color: transparent; /* TRONG SUỐT */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  z-index: 999;          /* nằm trên mọi phần tử khác */
+}
+
+/* Logo đơn giản */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-hinh {
+  height: 80px;
+  width: auto;
+}
+
+.logo-chu {
+  height: 120px;
+  width: auto;
+  margin-top: 10px;
+}
+
+/* Menu điều hướng */
+.nav a {
+  margin-left: 16px;
+  text-decoration: none;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.nav a:hover {
+  color: #111;
+}
+
+.anh-bia {
+  height: auto;
+  width: 100%;
+  display: block;
+}
+
+.poster {
+  margin-top: 100px;
+  width: 90%;             /* GIỚI HẠN CHIỀU NGANG */
+  margin-left: auto;
+  margin-right: auto;     /* CANH GIỮA */
+  overflow: hidden;       /* ĐỂ KHÔNG BỊ TRÀN */
+  border-radius: 0px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.poster1st {
+  display: flex;
+  width: 100%;            /* poster1st phải theo poster */
+}
+
+.poster1st img {
+  flex: 1;
+  display: block;
+  width: 20vw;
+  height: 56vw;          /* CHIỀU CAO PHÙ HỢP */
+  object-fit: cover;
+}
+
+.poster2 {
+  margin-top: 100px;
+  width: fit-content;             /* GIỚI HẠN CHIỀU NGANG */
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;     /* CANH GIỮA */
+  overflow: hidden;       /* ĐỂ KHÔNG BỊ TRÀN */
+}
+
+.poster2nd img {
+  flex: 1;
+  display: block;
+  width: 50vw;
+  height: 60vw;          /* CHIỀU CAO PHÙ HỢP */
+  object-fit: cover;
+}
+
+.posterkinh {
+  margin-top: 100px;
+  width: fit-content;             /* GIỚI HẠN CHIỀU NGANG */
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;     /* CANH GIỮA */
+  overflow: hidden;       /* ĐỂ KHÔNG BỊ TRÀN */
+  border-radius: 0px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.posterk img {
+  flex: 1;
+  display: block;
+  width: 90vw;
+  height: 60vw;          /* CHIỀU CAO PHÙ HỢP */
+  object-fit: cover;
+}
+
+
+/* Phần hero (banner) */
+.hero {
+  background: transparent;
+  padding: 40px 10px;
+}
+
+.hero-content {
+  max-width: 930px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Container dùng chung cho các section */
+.container {
+  max-width: 960px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+/* Tiêu đề section */
+
+.section-title {
+  margin-top: 150px;
+  text-align: center;
+}
+.section-title span {
+  display: block;
+  font-size: 4.0rem;
+  line-height: 1.0;
+  font-weight: 700;
+}
+
+.map-link {
+  color: #a67c27;
+  text-decoration: none;
+}
+
+.map-link:hover {
+  color: #787878;  /* Hover đổi màu */
+  text-decoration: underline;
+}
+
+
+/* Padding riêng từng dòng */
+.line-san {
+  padding-left: 100px;
+  font-family: "Hanoixua", sans-serif;
+}
+
+.line-pham {
+  padding-left: 20px;
+  font-family: "Hanoixua", sans-serif;
+}
+
+.line-noibat {
+  padding-left: 130px;
+  font-family: "Hanoixua", sans-serif;
+}
+
+.line-sp {
+  font-family: "Angi", sans-serif;
+  margin-bottom: 50px;
+}
+
+/* Grid sản phẩm: responsive dùng CSS Grid */
+.product-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(3, 1fr); /* desktop */
+}
+
+@media (max-width: 900px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr); /* tablet */
+  }
+}
+
+@media (max-width: 600px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr); /* phone */
+  }
+}
+
+/* Thẻ card sản phẩm */
+.product-card {
+  display: block;
+  background-color: transparent;
+  margin-top: 12px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  overflow: hidden;
+}
+
+/* Hình sản phẩm */
+.product-image {
+  height: auto;
+  width: 100%;
+  object-fit: fill;
+  transform: scale(1.05) translateY(-4px);
+}
+
+.product-card:hover .product-image {
+  filter: brightness(0.9);
+}
+
+/* Phần chữ của sản phẩm */
+.product-info {
+  padding: 3px 1px 14px;
+}
+
+.product-name {
+  font-size: 1.05rem;
+}
+
+.product-price {
+  font-weight: 600;
+  color: #4f4f4f;
+  margin-bottom: 1px;
+}
+
+.product-description {
+  display: none;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 12px;
+}
+
+@media (max-width: 900px) {
+  .featured-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .featured-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.featured-product {
+  display: block;
+  background-color: transparent;
+  margin-top: 12px;
+}
+
+.product-image-feature {
+  height: auto;
+  width: 100%;
+  object-fit: fill;
+}
+
+/* Đoạn giới thiệu, liên hệ */
+#contact p {
+  margin-bottom: 8px;
+}
+
+/* Footer */
+.footer {
+  margin-top: 32px;
+  padding: 16px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.categories {
+  position: fixed;
+  top: 130px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  padding: 15px 0;
+
+  background: transparent;
+
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 998;
+}
+
+.categories.hide {
+  opacity: 0;
+  transform: translateY(-20px);
+  pointer-events: none;
+}
+
+.category-btn {
+  font-family: "Ganh-thin", sans-serif;
+  font-weight: 700;
+  font-size: 1.20rem;
+  background: none;
+  border: none;
+}
+
+.category-btn:hover {
+  text-decoration: underline;
+  background-color: transparent;
+  color: inherit
+}
+
+.category-btn.active {
+  text-decoration: underline;
+  background-color: transparent;
+  color: inherit
+}
+
+/* Overlay */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: none;
+  z-index: 2000;
+}
+
+/* Modal chính */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.96);
+  width: 100%;
+  max-width: 900px;
+  max-height: 90vh;        /* QUAN TRỌNG: giới hạn chiều cao modal */
+  background: white;
+  padding: 0;
+  border-radius: 0;
+  opacity: 0;
+  z-index: 3000;
+  display: none;
+  overflow: hidden;        /* ẨN phần ảnh thừa để tràn đẹp */
+  transition: 
+    opacity .35s cubic-bezier(0.25,0.1,0.25,1),
+    transform .35s cubic-bezier(0.25,0.1,0.25,1);
+}
+
+.modal.show {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-content {
+  display: flex;
+  height: 100%;            /* 2 cột luôn bằng nhau */
+}
+
+/* CỘT TRÁI – Ảnh tràn full */
+.modal-left {
+  flex: 1;
+  height: 100%;
+  overflow: hidden;
+}
+
+.modal-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;        /* TRÀN – KHÔNG BAO GIỜ CHỪA KHOẢNG TRẮNG */
+  display: block;
+}
+
+/* CỘT PHẢI – Nội dung */
+.modal-right {
+  width: 40%;
+  padding: 24px;
+  overflow-y: auto;        /* nếu nội dung quá dài thì scroll */
+}
+
+@media (max-width: 700px) {
+  .modal-content {
+    flex-direction: column;
+  }
+
+  .modal-right {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Responsive cho mobile */
+@media (max-width: 700px) {
+  .modal-content {
+    flex-direction: column;
+  }
+}
