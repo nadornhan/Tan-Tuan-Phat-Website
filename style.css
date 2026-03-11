@@ -88,6 +88,17 @@ body {
   margin-top: 10px;
 }
 
+@media (max-width: 600px) {
+
+.logo-hinh {
+  height: 55px;
+}
+
+.logo-chu {
+  height: 70px;
+}
+}
+
 /* Menu điều hướng */
 .nav a {
   margin-left: 16px;
@@ -372,19 +383,6 @@ body {
   pointer-events: none;
 }
 
-@media (max-width: 600px) {
-
-.category-btn {
-  font-size: 0.5rem;
-  color: #111;
-  
-}
-
-.categories {
-  gap: 10px;
-}
-}
-
 .category-btn {
   font-family: "Ganh-thin", sans-serif;
   font-weight: 700;
@@ -403,6 +401,19 @@ body {
   text-decoration: underline;
   background-color: transparent;
   color: inherit
+}
+
+@media (max-width: 600px) {
+
+.category-btn {
+  font-size: 0.5rem;
+  color: #111;
+  
+}
+
+.categories {
+  gap: 10px;
+}
 }
 
 @media (max-width: 700px) {
@@ -477,7 +488,7 @@ body {
   overflow-y: auto;        /* nếu nội dung quá dài thì scroll */
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   .modal-content {
     flex-direction: column;
   }
@@ -488,21 +499,3 @@ body {
   }
 }
 
-/* Responsive cho mobile */
-@media (max-width: 700px) {
-  .modal-content {
-    flex-direction: column;
-  }
-
-}
-
-@media (max-width: 600px) {
-
-.logo-hinh {
-  height: 45px;
-}
-
-.logo-chu {
-  height: 60px;
-}
-}
