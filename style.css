@@ -209,6 +209,10 @@ body {
   .hero-content h1 {
     font-size: 1.6rem;
   }
+
+  #contact h1 {
+    font-size: 1.6rem;
+  }
 }
 
 /* Tiêu đề section */
@@ -520,6 +524,7 @@ body {
     height: auto;
   }
 }
+
 
 
 
