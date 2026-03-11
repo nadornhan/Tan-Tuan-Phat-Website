@@ -188,7 +188,7 @@ body {
   margin: 0 auto;
 }
 
-.hero h1 {
+.hero-content h1 {
   font-size: 2rem;
   margin-bottom: 12px;
 }
@@ -206,7 +206,7 @@ body {
 }
 
 @media (max-width: 600px) {
-  .hero h1 {
+  .hero-content h1 {
     font-size: 1.6rem;
   }
 }
@@ -520,6 +520,7 @@ body {
     height: auto;
   }
 }
+
 
 
 
