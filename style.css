@@ -80,11 +80,11 @@ body {
 @media (max-width: 600px) {
 
   .logo-hinh {
-    height: 20px;
+    height: 10px;
   }
 
   .logo-chu {
-    height: 40px;
+    height: 30px;
     margin-top: 5px
   }
 }
@@ -417,12 +417,6 @@ body {
   color: inherit
 }
 
-@media (max-width: 700px) {
-
-.modal {
-  width: 95%;
-}
-
 .modal-content {
   flex-direction: column;
 }
@@ -495,7 +489,7 @@ body {
   }
 
   .modal-right {
-    width: 100%;
+    width: 70%;
     height: auto;
   }
 }
@@ -507,4 +501,5 @@ body {
   }
 
 }
+
 
