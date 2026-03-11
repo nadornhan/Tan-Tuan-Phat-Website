@@ -80,11 +80,12 @@ body {
 @media (max-width: 600px) {
 
   .logo-hinh {
-    height: 50px;
+    height: 20px;
   }
 
   .logo-chu {
-    height: 70px;
+    height: 40px;
+    margin-top: 5px
   }
 }
 
@@ -386,8 +387,8 @@ body {
 @media (max-width: 600px) {
 
 .category-btn {
-  font-size: 0.9rem;
-  color: #333;
+  font-size: 0.5rem;
+  color: #111;
   
 }
 
@@ -506,3 +507,4 @@ body {
   }
 
 }
+
