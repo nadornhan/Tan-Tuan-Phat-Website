@@ -432,13 +432,13 @@ body {
 @media (max-width: 600px) {
 
 .category-btn {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: #111;
   
 }
 
 .categories {
-  gap: 7px;
+  gap: 10px;
 }
 }
 
@@ -524,6 +524,7 @@ body {
     height: auto;
   }
 }
+
 
 
 
