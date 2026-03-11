@@ -198,6 +198,11 @@ body {
   color: #555;
 }
 
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 1.6rem;
+  }
+}
 /* Container dùng chung cho các section */
 .container {
   max-width: 960px;
@@ -250,6 +255,22 @@ body {
   margin-bottom: 50px;
 }
 
+@media (max-width: 600px) {
+  .section-title span {
+  font-size: 3rem;
+}
+  .line-san {
+  padding-left: 90px;
+}
+
+.line-pham {
+  padding-left: 10px;
+}
+
+.line-noibat {
+  padding-left: 120px;
+}
+}
 /* Grid sản phẩm: responsive dùng CSS Grid */
 .product-grid {
   display: grid;
@@ -406,13 +427,13 @@ body {
 @media (max-width: 600px) {
 
 .category-btn {
-  font-size: 0.5rem;
+  font-size: 0.9rem;
   color: #111;
   
 }
 
 .categories {
-  gap: 10px;
+  gap: 7px;
 }
 }
 
@@ -498,4 +519,5 @@ body {
     height: auto;
   }
 }
+
 
