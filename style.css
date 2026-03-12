@@ -243,9 +243,10 @@ body {
   text-decoration: none
 }
 
-.zalo-link hover {
+.zalo-link:hover {
   color: #787878;
   text-decoration: underline;
+}
 
 /* Padding riêng từng dòng */
 .line-san {
@@ -532,6 +533,7 @@ body {
     height: auto;
   }
 }
+
 
 
 
