@@ -234,10 +234,18 @@ body {
 }
 
 .map-link:hover {
-  color: #787878;  /* Hover đổi màu */
+  color: #787878;
   text-decoration: underline;
 }
 
+.zalo-link {
+  color: #00388D;
+  text-decoration: none
+}
+
+.zalo-link hover {
+  color: #787878;
+  text-decoration: underline;
 
 /* Padding riêng từng dòng */
 .line-san {
@@ -524,6 +532,7 @@ body {
     height: auto;
   }
 }
+
 
 
 
