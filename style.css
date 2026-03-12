@@ -240,7 +240,7 @@ body {
 
 .zalo-link {
   color: #00388D;
-  text-decoration: none
+  text-decoration: none;
 }
 
 .zalo-link:hover {
@@ -533,6 +533,7 @@ body {
     height: auto;
   }
 }
+
 
 
 
